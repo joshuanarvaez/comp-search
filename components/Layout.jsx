@@ -4,28 +4,24 @@ import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import GoogleSearch from './GoogleSearch';
-import ChatGPT from './ChatGPT';
 
-const Layout = ({ children }) => 
-   (
-    <>
+const Layout = ({ children }) => (
+  <div className="layout">
     <Head>
-        <title>CompSearch</title>
+      <title>CompSearch</title>
     </Head>
-    <div>
-        <header>
-            <Navbar />
-        </header>
-        <main>
-            <GoogleSearch />
-            <ChatGPT />
-        </main>
-        <footer>
-            <Footer />
-        </footer>
-    </div>
-    </> 
-  )
+    <header>
+      <Navbar />
+      <GoogleSearch />
+    </header>
+    <main>
+      {children}
+    </main>
+    <footer>
+      <Footer />
+    </footer>
+  </div>
 
+);
 
 export default Layout;

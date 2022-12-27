@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const ChatGPT = () => {
-  return (
-    <div>ChatGPT</div>
-  )
-}
+const ChatGPT = () => (
+  <div>ChatGPT</div>
+);
 
-export default ChatGPT
+export default ChatGPT;

@@ -1,11 +1,8 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 
-import { Navbar, Footer, GoogleSearch, ChatGPT, About, Reports } from '../components';
+const Home = () => (
+  <h1>This is the Homepage</h1>
+);
 
-const Home  = () => {
-  return (
-    <Layout />
-  )
-}
-
-export default Home 
+export default Home;

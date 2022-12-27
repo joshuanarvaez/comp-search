@@ -38,3 +38,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Next.js
 Talwind CSS
+Redux Toolkit
+https://rapidapi.com/contextualwebsearch/api/web-search
+
